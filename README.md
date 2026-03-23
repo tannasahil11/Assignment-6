@@ -57,7 +57,7 @@ insufficient and will not be accepted.
 | **#2** | [Fibonnaci(0)] == [0] | Added a step counter to stop iteration and current, previous value tracker | ebaa326 |
 | **#3** | [Fibonnaci(1)] == [0, 1] | Added 2 statements to update previous and current value | b674162 |
 | **#4** | [Fibonnaci(2)] == [0, 1, 1] | No code fix needed | 9767219 |
-| **#5** | [Fibonnaci(4)] == [0, 1, 1, 2, 3] | | 5cc9880 |
+| **#5** | [Fibonnaci(4)] == [0, 1, 1, 2, 3] | No code fix needed | 5cc9880 |
 | **#6** | | | |
 | **#7** | | | |
 

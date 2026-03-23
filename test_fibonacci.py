@@ -27,5 +27,5 @@ def test_output_for_value_2():
     assert list(Fibonacci(2)) == [0, 1, 1]
 
 def test_output_for_value_4():
-    """Test iterator output for 2 steps in the sequence"""
+    """Test iterator output for 4 steps in the sequence"""
     assert list(Fibonacci(4)) == [0, 1, 1, 2, 3]    

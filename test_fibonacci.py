@@ -17,4 +17,8 @@ def test_value_error_with_float():
 def test_output_for_value_0():
     """Test iterator output for base value of 0 steps"""
     assert list(Fibonacci(0)) == [0]
+
+def test_output_for_value_1():
+    """Test iterator output for base value of 0 steps"""
+    assert list(Fibonacci(1)) == [0, 1]
     

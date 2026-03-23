@@ -54,8 +54,8 @@ insufficient and will not be accepted.
 | Step | Test assertion | Code written to pass | Commit Exists |
 | ---- | ---- | ---- | ------ |
 | **#1** | pytest.raises(ValueError) | Added typecheck to raise Value Error | 4409bfe, cc2aaa4 |
-| **#2** | asserting list equality | Added a step counter to stop iteration and current, previous value tracker | |
-| **#3** | | | |
+| **#2** | asserting list equality | Added a step counter to stop iteration and current, previous value tracker | ebaa326 |
+| **#3** | asserting list equality |  | |
 | **#4** | | | |
 | **#5** | | | |
 | **#6** | | | |

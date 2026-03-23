@@ -18,4 +18,6 @@ class Fibonacci:
             raise StopIteration
         self.count += 1
         result = self.previous
+        self.previous += self.current
+        self.current = result
         return result

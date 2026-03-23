@@ -54,9 +54,9 @@ insufficient and will not be accepted.
 | Step | Test assertion | Code written to pass | Commit Exists |
 | ---- | ---- | ---- | ------ |
 | **#1** | pytest.raises(ValueError) | Added typecheck to raise Value Error | 4409bfe, cc2aaa4 |
-| **#2** | asserting list equality | Added a step counter to stop iteration and current, previous value tracker | ebaa326 |
-| **#3** | asserting list equality | Added 2 statements to update previous and current value | b674162 |
-| **#4** | | | |
+| **#2** | [Fibonnaci(0)] == [0] | Added a step counter to stop iteration and current, previous value tracker | ebaa326 |
+| **#3** | [Fibonnaci(1)] == [0, 1] | Added 2 statements to update previous and current value | b674162 |
+| **#4** | [Fibonnaci(2)] == [0, 1, 1] | No code fix needed | 9767219 |
 | **#5** | | | |
 | **#6** | | | |
 | **#7** | | | |

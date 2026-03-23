@@ -53,8 +53,8 @@ insufficient and will not be accepted.
 ### `(/21)` Development matrix
 | Step | Test assertion | Code written to pass | Commit Exists |
 | ---- | ---- | ---- | ------ |
-| **#1** | pytest.raises(ValueError)| Added typecheck to raise Value Error | 4409bfe,  |
-| **#2** | | | |
+| **#1** | pytest.raises(ValueError) | Added typecheck to raise Value Error | 4409bfe, cc2aaa4 |
+| **#2** | asserting list equality | Added a step counter to stop iteration and current, previous value tracker | |
 | **#3** | | | |
 | **#4** | | | |
 | **#5** | | | |

@@ -53,7 +53,7 @@ insufficient and will not be accepted.
 ### `(/21)` Development matrix
 | Step | Test assertion | Code written to pass | Commit Exists |
 | ---- | ---- | ---- | ------ |
-| **#1** | pytest.raises(ValueError)| | |
+| **#1** | pytest.raises(ValueError)| Added typecheck to raise Value Error | 4409bfe,  |
 | **#2** | | | |
 | **#3** | | | |
 | **#4** | | | |

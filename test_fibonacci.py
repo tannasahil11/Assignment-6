@@ -19,6 +19,10 @@ def test_output_for_value_0():
     assert list(Fibonacci(0)) == [0]
 
 def test_output_for_value_1():
-    """Test iterator output for base value of 0 steps"""
+    """Test iterator output for 1 step in the sequence"""
     assert list(Fibonacci(1)) == [0, 1]
+
+def test_output_for_value_2():
+    """Test iterator output for 2 steps in the sequence"""
+    assert list(Fibonacci(2)) == [0, 1, 1]
     

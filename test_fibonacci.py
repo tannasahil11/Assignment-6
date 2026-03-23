@@ -33,3 +33,7 @@ def test_output_for_value_4():
 def test_output_for_value_10():
     """Test iterator output for 10 steps in the sequence"""
     assert list(Fibonacci(10)) == [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]  
+
+def test_output_for_negative_value():
+    """Test iterator output for negative steps in the sequence"""
+    assert list(Fibonacci(-10)) == []  

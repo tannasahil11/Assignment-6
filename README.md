@@ -59,7 +59,7 @@ insufficient and will not be accepted.
 | **#4** | [Fibonnaci(2)] == [0, 1, 1] | No code fix needed | 9767219 |
 | **#5** | [Fibonnaci(4)] == [0, 1, 1, 2, 3] | No code fix needed |5cc9880 |
 | **#6** | [Fibonnaci(10)] == [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55] | No code fix needed | eb734f8 |
-| **#7** | [Fibonacci(-10)] == [] | no fix needed | |
+| **#7** | [Fibonacci(-10)] == [] | no fix needed | dd2f44b |
 
 
 ### Code style

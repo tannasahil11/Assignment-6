@@ -1,3 +1,5 @@
+"""This module implements an iterable class which can be invoked
+ as an iterator to generate fibonacci sequence numbers"""
 class Fibonacci:
     """This class represents an iterable object which
       is also an iterator for generating the fibonnaci sequence."""
@@ -12,7 +14,7 @@ class Fibonacci:
 
     def __iter__(self):
         return self
-    
+
     def __next__(self):
         if self.count > self.limit:
             raise StopIteration

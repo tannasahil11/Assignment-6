@@ -8,11 +8,13 @@ def test_value_error_with_str():
     """Raises ValueError if the user enters a string"""
     with pytest.raises(ValueError):
         obj = Fibonacci("test")
+        print([obj])
 
 def test_value_error_with_float():
     """Raises ValueError if the user enters a floating point number"""
     with pytest.raises(ValueError):
         obj = Fibonacci(5.6)
+        print([obj])
 
 def test_output_for_value_0():
     """Test iterator output for base value of 0 steps"""
@@ -28,12 +30,12 @@ def test_output_for_value_2():
 
 def test_output_for_value_4():
     """Test iterator output for 4 steps in the sequence"""
-    assert list(Fibonacci(4)) == [0, 1, 1, 2, 3]    
+    assert list(Fibonacci(4)) == [0, 1, 1, 2, 3]
 
 def test_output_for_value_10():
     """Test iterator output for 10 steps in the sequence"""
-    assert list(Fibonacci(10)) == [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]  
+    assert list(Fibonacci(10)) == [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
 def test_output_for_negative_value():
     """Test iterator output for negative steps in the sequence"""
-    assert list(Fibonacci(-10)) == []  
+    assert len(list(Fibonacci(-10))) == len([])
